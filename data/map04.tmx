@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="collision" tilewidth="16" tileheight="16">
+  <image source="collision.png" trans="ffffff" width="80" height="32"/>
+ </tileset>
+ <tileset firstgid="11" name="stone" tilewidth="16" tileheight="16">
+  <image source="tilea2.png" trans="ffffff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="779" name="statues" tilewidth="16" tileheight="16">
+  <image source="statues.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1803" name="wood" tilewidth="16" tileheight="16">
+  <image source="tileb.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <layer name="collision" width="160" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Y6w6CMAxGt/d/aX+RKBF2bfttOydpJBFnac+KmFNKOQH4km8B4An+QST4B5Hc/RsJgFbwDyLBPYhkFY/YF3uyQr+Yy/vi1a9TnLCq5677SvG6lHJpwWoGK8/20XuP9/yDc6jpt+KegnPw8K+07qz/gHgO8aG2rjXnWfep9fujHSyd71GrnrVr81bD0r8W/y2p7cubtzXvjeb3b72ntUfyVsIqN+Vr/kbhHt8zsyzz9OybhSeruHfxlGupd5bu1X62J28lrOcfwBuz/Vthz4EOUXN65u8ur99pMJ/e3oz2E/+0colCtTdgj0Lfa/yLzhH2Bf8gEvyzQ+H+pk7JP2rYh/qzjwot/lG/d/LtON+OqeFvTa5XgiCIk+MDTFczmABLAAA=
+  </data>
+ </layer>
+ <layer name="stone" width="160" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1aa27bMAy2f+UIXXeRJDtHBns9x4qku8Y2bPfY7tK1F+nj1yTEQgiNlKiXJa38AMKyTMuU9ZmkmOzHYfigRCBYE1vFuZ2SvfBPUAHCP0FNQP7dCP8EKwPy71Gdv1PH6/F85IrW/1N7IoIuAfmXIhK7BTGA/HtV56cxXO6UPNeeiKBL9LL/MHEe5gbXRJ/kBP2gB/5BPwuPpk2J+OT2sdb+92rxSe8Tn2HsdX0r24rf0hXwv6lzhbgfyoxbG2v5Pw5voC6lNzXMP829h+Fs326pJ+TgiuaeGXefcdwcsHMe2OagN/617v/eIj6pdz2P5yNsc+Jpi/ybgO2n8d9rO8/cJubcBenA8nKTf39phH/3g5t/Jrexa9q+mrerH16XfXBecH0JJ+cvzT+Tt1A2m9zG3s++LPdxapKYPvwWdb7E5eDXzUVirqcgZWyu3TnAycE1uLlSKf7BXJyy5WnA6yQh8dqnTz1DQ6/JvLm0MfFdmxLXNmbsFLtTYd61L8epyT/IvVemLZhdXH3uN2njCNZFt0/Ies1In9adwPkpI/84Y6fY7YOpIVFxk7s2tfhncy/EZtuuUvoQlG84grU9IjzI4VNSxo612wffuyzFv5x7Rsg9ri2YXWvwz4Vp8UVzAsdc0NzYFRg7xW5ffG3Z/1HP7JV/x075l2K3L5f5H/iH1VywWkqKYOOF1mLMGpbi37ag/4u1u4f4S+Wo1Ldj26L3pK56itGPrb9QeqH/SSjJP829lvnXcvwNjbO9xt9e+Wf2HS67TQyyY0It/0fphfCJ6/98EP6lgcO/WF+xdvzFfLH4v3S0wL/ZsVatxF/xf3H8M/Vf6t6StZ0U/+fb/5b6/Q3jey4/99b4p3n3TckvJb8JHsI6cW70Fn+p/2tNi4/W156Jfkqf00+htD4XZh05HJmAjuGdxgx4+H1z0f2xyM+C/HPZvY1cK85/4Cg9w6EHS+cwXOSjJXbfgdHG9G3dg9Xm9tnXY8YLfY49j1y2Y3rYs0Lnhr1z19q41gc7p8am7vPx6rOSWznKsdLxL6bsCqQASwAA
+  </data>
+ </layer>
+ <layer name="statues" width="160" height="30" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SWUoDQRSF4RsS4oMjJJphC46QaGK24Ai6C0fQXTiC7sIpoDtxdhvOPnmEBvOSpFMVWtT/g0MR0n2qqL5mAOrpTJp1Kd1Kj9Kr9CV/+lT4LwY1a0PKsDKijCpjzB8iMqVZm1ZmlFllTpln/hCRJc3asrKirCpryjrzh4hsada2lR1lV9lT9pk/RORIs3asnCinyplSZf4QkWzMLBckG/v+DQAAAAAAAAC/VbnD7T+gHZg/AAAAAAAA/CW3cbO7uF/Hvd5/8Oz4cqmOq6DnWutNC50LenaxwfOu3c16fbph9qq7evO8r3e9/9GGO39Ux1PQ86z1pYXODT272eB51+5mvT7dMMskzLIJv46c3s/XdKR0/2mHb5BSRzro6dc6EPJcGe11oBwq+Tr7unSH6fU5N8xKuquy531N6v1KTUdB36roMH8FdRSDnnGtEyHPVdJe58qFUqmzr0t3mF6fcwMAovcJ3aHXTQBLAAA=
+  </data>
+ </layer>
+ <layer name="flowers" width="160" height="30" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3MwQkAIAwEwXztvzhjNypoBQb8zMBxv40AAAAAAAAAAAAAAAAAAAAAAHiXLWKs9fNVduu2s7ALwD8TGp4fjgBLAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="56" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="collision" tilewidth="16" tileheight="16">
+  <image source="collision.png" trans="ffffff" width="80" height="32"/>
+ </tileset>
+ <tileset firstgid="11" name="tilea2" tilewidth="16" tileheight="16">
+  <image source="../../../Documents/freeaks_slick2d/tilea2.png" trans="ffffff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="779" name="wood" tilewidth="16" tileheight="16">
+  <image source="../../../Documents/freeaks_slick2d/tileb.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <layer name="collision" width="40" height="56">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UwQ7AIAgDUP3/n95pl2VblFJEaRNOC+xp1N5a6y1f+qOyRT4s8mF5+mbKY+5pvmzJ6rPud1Sy++54+Jhrq+BjZsS38qyyfF7vPmtPsvu8Ih+WKj5Wv3xY/0m+FXeI5fN6E+TDspuPWRV82SLfXBhnhGWRDw/L57X+r350n3fzWYP8V764+/H2DZ2DeEZ8K89x1Fzrf07yjZ6FqPsRNeevRz4sVX0qW13++GlSACMAAA==
+  </data>
+ </layer>
+ <layer name="floor" width="40" height="56">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1ZC07DMAz1HYDeBC7CxkVouQgtR+F8JIwnWZbzd0hge5LVrlrcN/+TbUT0RvPh1cnq5HDyMZiLBvDbaG773fjV4d3JTvPy4/ZbnJycnDOuLwm9z4G1/D6lQ/Jbxf0mnvNnS0Lvg6JL6k/p8OD+fcr4/m9j1vhDfHg/HDRffUZ88JiYyX7AI13822K/O7rkZA9Y1Ges74H/0D9OQs7Uz58SOfPVSnqNjsHXh5w+lOpLvfxb25ckh1nrM3Cbn9swOz+r+EP+1QLzgIRV/LX2kNB6K/+ih1uvt+I3g/1y9wyWKOFXYiPE+309tW/04sf1tqAXPz+ft+aMR0n9K+G3kw0/2A/70dj8A345cxKfTVryCvaTs5CciXLno12R4+dag2vpv73g7ReaXUcAe1XEMc4PRvDjXDgfGeej7CfzR7sedJ35gf7LpaYGhvhp+nkNTkGeP0FKEap/mm5eo1OQ9bwWpf7lPS4GxPcofql3WvHr1d9i/tXOWUKA/Vr3bzKfYvz8Z8xKufzWRn6xXLLwL5//UEdk7ynZS1jHn9SnzX6fnfjFbM3zw/L/mVH1hQN+12DNryZ/Y++GzpxaGUOv88m/wg9SC17/+P6yRfjeHLG9VOrS9pVyrh4p+J1feO4vqQAjAAA=
+  </data>
+ </layer>
+</map>
