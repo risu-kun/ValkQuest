@@ -13,8 +13,8 @@ import org.newdawn.slick.state.StateBasedGame;
  */
 public class ValkGame extends StateBasedGame {
  
-    public static final int MAINMENUSTATE          = 0;
-    public static final int GAMEPLAYSTATE          = 1;
+    public static final int MAINMENUSTATE          = 1;
+    public static final int GAMEPLAYSTATE          = 2;
  
     public ValkGame()
     {
@@ -23,15 +23,13 @@ public class ValkGame extends StateBasedGame {
  
     public static void main(String[] args) throws SlickException
     {
-         AppGameContainer app = new AppGameContainer(new ValkGame());
- 
-         app.setDisplayMode(800, 600, false);
-         app.start();
+    		AppGameContainer container = new AppGameContainer(new ValkGame(), 640, 480, false);
+    		container.start();
     }
  
     @Override
     public void initStatesList(GameContainer gameContainer) throws SlickException {
-        this.addState(new MainMenuState(MAINMENUSTATE));
-        //this.addState(new GameplayState(GAMEPLAYSTATE));
+        this.addState(new MainMenuState());
+        this.addState(new GameplayState());
     }
 }
